@@ -74,9 +74,9 @@ PKG_CHECK_MODULES(GTKMM, gtkmm-2.4 >= 2.6.0)
 AC_SUBST(GTKMM_CFLAGS)
 AC_SUBST(GTKMM_LIBS)
 
-PKG_CHECK_MODULES(GLADEMM, libglademm-2.4 >= 2.6.0)
-AC_SUBST(GLADEMM_CFLAGS)
-AC_SUBST(GLADEMM_LIBS)
+PKG_CHECK_MODULES(GLADE, libglade-2.0 >= 0.29)
+AC_SUBST(GLADE_CFLAGS)
+AC_SUBST(GLADE_LIBS)
 
 PKG_CHECK_MODULES(GTHREAD, gthread-2.0)
 AC_SUBST(GTHREAD_CFLAGS)
@@ -157,6 +157,7 @@ po/Makefile.in
 Makefile
 configuration/Makefile
 imagepool/Makefile
+glademm/Makefile
 src/Makefile
 widgets/Makefile
 pixmaps/Makefile

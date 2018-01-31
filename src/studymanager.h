@@ -25,7 +25,7 @@
 #define AESKULAP_STUDYMANAGER_H
 
 #include <gtkmm.h>
-#include <libglademm/xml.h>
+#include <glademm/xml.h>
 
 #include "aconfigclient.h"
 #include <map>

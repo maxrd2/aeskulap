@@ -25,7 +25,7 @@
 #define AESKULAP_ABOUTDIALOG_H
 
 #include <gtkmm.h>
-#include <libglademm/xml.h>
+#include <glademm/xml.h>
 
 class AboutDialog : public Gtk::AboutDialog {
 public:

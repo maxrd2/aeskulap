@@ -40,8 +40,8 @@ aeskulap_LDADD = \
 	../widgets/libgtkdicom.la \
 	../imagepool/libimagepool.la \
 	../configuration/libconfiguration.la \
+	../glademm/libaeskulap-glade.la \
 	$(GTKMM_LIBS) \
-	$(GLADEMM_LIBS) \
 	$(GTHREAD_LIBS) \
 	$(GCONFMM_LIBS) \
 	$(DCMTK_LIBS)

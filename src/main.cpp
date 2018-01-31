@@ -35,7 +35,7 @@
 #include "binreloc.h"
 
 #include <gtkmm.h>
-#include <libglademm/xml.h>
+#include <glademm/xml.h>
 
 #include <iostream>
 #include "gettext.h"
