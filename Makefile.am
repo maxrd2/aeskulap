@@ -4,6 +4,7 @@ SUBDIRS = \
 	po \
 	configuration \
 	imagepool \
+	glademm \
 	widgets \
 	src \
 	pixmaps

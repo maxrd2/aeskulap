@@ -25,7 +25,7 @@
 #define AESKULAP_MAINWINDOW_H_
 
 #include <gtkmm.h>
-#include <libglademm/xml.h>
+#include <glademm/xml.h>
 
 #include "fileloader.h"
 #include "netloader.h"
