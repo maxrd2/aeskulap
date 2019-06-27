@@ -56,8 +56,10 @@ OFCondition FindAssociation::findSCU(T_ASC_Association *assoc, DcmDataset *query
 	req.DataSetType = DIMSE_DATASET_PRESENT;
 	req.Priority = DIMSE_PRIORITY_LOW;
 	strcpy(req.AffectedSOPClassUID, m_abstractSyntax);
+	int rc = 0;
 
-	cond = DIMSE_findUser(assoc, presId, &req, query, 
+	cond = DIMSE_findUser(assoc, presId, &req, query,
+			rc,
 			findCallback, (void*)this, 
 			(m_timeout == 0) ? DIMSE_BLOCKING : DIMSE_NONBLOCKING,
 			m_timeout, 
